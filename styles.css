@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    background: linear-gradient(blue, red);
+    color: #ffffff;
+    font-family: Pokemon;
+    font-size: 12px;
+}
+
+@font-face {
+  font-family: "Pokemon";
+  src: url(PokemonGb-RAeo.ttf) format("truetype");
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 2px 2px 2px black;
+}
+
+#logo-img {
+    width: 300px;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+#bday-age {
+    background: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 20px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 60px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 250px;
+    background-image: url("images/pogo-gift2.webp");
+    background-size: cover;
+    border: 2px solid black;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/pokemon-hooray.gif");
+}
+
+#gift-img-shiny:hover {
+    background-image: url("images/pokemon-shiny.gif");
+}
+
+#gift-img-catch:hover {
+    background-image: url("images/catch-em.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/charizard.gif");
+}
+
+#gift-img-celebrate:hover {
+    background-image: url("images/celebrate.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 50px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
